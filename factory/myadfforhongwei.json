@@ -1,0 +1,9 @@
+{
+	"name": "myadfforhongwei",
+	"location": "chinaeast2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9e3fd20f-5c93-41a8-9f88-352d5c7f22bb",
+		"tenantId": "954ddad8-66d7-47a8-8f9f-1316152d9587"
+	}
+}

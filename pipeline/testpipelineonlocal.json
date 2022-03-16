@@ -1,0 +1,26 @@
+{
+	"name": "testpipelineonlocal",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "myname",
+					"value": "小白"
+				}
+			}
+		],
+		"variables": {
+			"myname": {
+				"type": "String",
+				"defaultValue": "大白"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-03-16T02:30:08Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
