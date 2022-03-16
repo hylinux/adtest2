@@ -6,9 +6,19 @@
 				"name": "Set variable1",
 				"type": "SetVariable",
 				"dependsOn": [],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "testvar1",
+					"value": "测试2"
+				}
 			}
 		],
+		"variables": {
+			"testvar1": {
+				"type": "String",
+				"defaultValue": "测试"
+			}
+		},
 		"annotations": [
 			"testvar1"
 		]
